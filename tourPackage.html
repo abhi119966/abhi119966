@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+<head>
+
+<link href="css/myStyleTourPackage.css" rel="stylesheet" type="text/css">
+<script src="jquery-3.3.1.js"></script>
+
+</head>
+<body>
+		<div class="container">
+		
+			<div class="wrapper">
+				<div class="bookingSection">
+				<h1 align="right">
+				<?php if(isset($_SESSION['id']))
+					{
+					 ?> <a href="confirmPackage.php">"Book Now"</a>
+
+						
+					<?php }
+						else
+					{?>
+						<a href="" id="book" style="color:blue;text-decoration:underline;text-decoration:bold;">"Book Now"</a>
+					
+					
+						<script type="text/javascript">
+		
+						$(document).ready(function(){
+						$('#book').click(function(){
+				alert('Login First');
+				});
+			});
+		</script>
+				<?php	} ?></h1></a>
+				</div><!--- end of booking Section-->
+				
+				<table class="packageTable">
+					<tr>
+						<td colspan="6" class="tableHeadingStyle">North India </td>
+					</tr>
+					<tr align="center">
+							<td>S.No </td>
+							<td>Package </td>
+							<td>Place_to_Visit </td>
+							<td>Duration </td>
+							<td>Price </td>
+							
+					</tr>
+					<tr>
+							<td> 1.</td>
+							<td>Silver </td>
+							<td>Amritsar-Delhi </td>
+							<td>4 Days 3 Nights </td>
+							<td>Rs-20,000 </td>
+							
+					</tr>
+				
+					<tr>
+							<td> 2.</td>
+							<td>Gold </td>
+							<td>Manali-Delhi-Jaipur </td>
+							<td>5 Days 4 Nights </td>
+							<td>Rs-24,000 </td>
+							
+					</tr>
+					<tr>
+							<td> 3.</td>
+							<td>Diamond </td>
+							<td>Amritsar-Delhi-Jaipur-Manali-Srinagar </td>
+							<td>7 Days 6 Nights </td>
+							<td>Rs-28,000 </td>
+							
+					</tr>
+					<tr>
+						<td colspan="6" class="tableHeadingStyle">West India </td>
+					</tr>
+					<tr align="center">
+							<td>S.No </td>
+							<td>Package </td>
+							<td>Place_to_Visit </td>
+							<td>Duration </td>
+							<td>Price </td>
+							
+					</tr>
+					<tr>
+							<td> 1.</td>
+							<td>Silver </td>
+							<td>Mahabaleshwar-Goa </td>
+							<td>4 Days 3 Nights </td>
+							<td>Rs-24,000 </td>
+							
+					</tr>
+				
+					<tr>
+							<td> 2.</td>
+							<td>Gold </td>
+							<td>Mumbai-Ajanta & Ellora-Kutch </td>
+							<td>5 Days 4 Nights </td>
+							<td>Rs-28,000 </td>
+							
+					</tr>
+					<tr>
+							<td> 3.</td>
+							<td>Diamond </td>
+							<td>Mumbai-Ajanta & Ellora-Kutch-Mumbai-Goa</td>
+							<td>7 Days 6 Nights </td>
+							<td>Rs-32,000 </td>
+							
+					</tr>
+					
+					<tr>
+						<td colspan="6" class="tableHeadingStyle">South India </td>
+					</tr>
+					<tr align="center">
+							<td>S.No </td>
+							<td>Package </td>
+							<td>Place_to_Visit </td>
+							<td>Duration </td>
+							<td>Price </td>
+							
+					</tr>
+					<tr>
+							<td> 1.</td>
+							<td>Silver </td>
+							<td>Hyderabad-Andaman & Nicobar </td>
+							<td>4 Days 3 Nights </td>
+							<td>Rs-20,000 </td>
+							
+					</tr>
+				
+					<tr>
+							<td> 2.</td>
+							<td>Gold </td>
+							<td>Andaman & Nicobar-Mysore-Ooty </td>
+							<td>5 Days 4 Nights </td>
+							<td>Rs-24,000 </td>
+							
+					</tr>
+					<tr>
+							<td> 3.</td>
+							<td>Diamond </td>
+							<td>Mysore-Andaman & Nicobar-Ooty-Hyderbad </td>
+							<td>7 Days 6 Nights </td>
+							<td>Rs-28,000 </td>
+							
+					</tr>
+					
+					<tr>
+						<td colspan="6" class="tableHeadingStyle">Central India </td>
+					</tr>
+					<tr align="center">
+							<td>S.No </td>
+							<td>Package </td>
+							<td>Place_to_Visit </td>
+							<td>Duration </td>
+							<td>Price </td>
+							
+					</tr>
+					<tr>
+							<td> 1.</td>
+							<td>Silver </td>
+							<td>Amarkantak-Gwalior</td>
+							<td>4 Days 3 Nights </td>
+							<td>Rs-12,000 </td>
+						
+					</tr>
+				
+					<tr>
+							<td> 2.</td>
+							<td>Gold </td>
+							<td>Bhopal-Gwalior-Omkareshwar </td>
+							<td>5 Days 4 Nights </td>
+							<td>Rs-16,000 </td>
+							
+					</tr>
+					<tr>
+							<td> 3.</td>
+							<td>Diamond </td>
+							<td>Bhopal-Amarkantak-Jabalpur-Gwalior</td>
+							<td>7 Days 6 Nights </td>
+							<td>Rs-20,000 </td>
+							
+					</tr>
+					<tr>
+						<td colspan="6" class="tableHeadingStyle">East India </td>
+					</tr>
+					<tr align="center">
+							<td>S.No </td>
+							<td>Package </td>
+							<td>Place_to_Visit </td>
+							<td>Duration </td>
+							<td>Price </td>
+							
+					</tr>
+					<tr>
+							<td> 1.</td>
+							<td>Silver </td>
+							<td>Kokata-Bodh Gaya </td>
+							<td>4 Days 3 Nights </td>
+							<td>Rs-16,000 </td>
+							
+					</tr>
+				
+					<tr>
+							<td> 2.</td>
+							<td>Gold </td>
+							<td>Darjeeling-Kolkata-Puri </td>
+							<td>5 Days 4 Nights </td>
+							<td>Rs-20,000 </td>
+							
+					</tr>
+					<tr>
+							<td> 3.</td>
+							<td>Diamond </td>
+							<td>Puri-Darjeeling-Kolkata-Konark-Bodh Gaya </td>
+							<td>7 Days 6 Nights </td>
+							<td>Rs-24,000 </td>
+							
+					</tr>
+					
+					<tr>
+						<td colspan="6" class="tableHeadingStyle">North East India </td>
+					</tr>
+					<tr align="center">
+							<td>S.No </td>
+							<td>Package </td>
+							<td>Place_to_Visit </td>
+							<td>Duration </td>
+							<td>Price </td>
+							
+					</tr>
+					<tr>
+							<td> 1.</td>
+							<td>Silver </td>
+							<td>Gangtok-Shillong </td>
+							<td>4 Days 3 Nights </td>
+							<td>Rs-12,000 </td>
+							
+					</tr>
+				
+					<tr>
+							<td> 2.</td>
+							<td>Gold </td>
+							<td>Gangtok-Tawang-Majuli</td>
+							<td>5 Days 4 Nights </td>
+							<td>Rs-16,000 </td>
+							
+					</tr>
+					<tr>
+							<td> 3.</td>
+							<td>Diamond </td>
+							<td>Sikkim-Majuli-Shillong-Gangtok-Tawang </td>
+							<td>7 Days 6 Nights </td>
+							<td>Rs-20,000 </td>
+							
+					</tr>
+					
+	
+	 </table>
+			
+			
+			
+			
+			</div><!--- end of Wrapper--->
+		
+		
+		
+		
+		</div><!-- end of Container----->
+
+</body>
+</html>
+

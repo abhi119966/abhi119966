@@ -1,0 +1,93 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width:100%;
+	height:auto;
+	
+	background-color:#ffffff;
+	
+}
+.header{
+	width:100%;
+	height:100px;
+	background-color:#efacda;
+}
+
+.wrapper{
+	margin:0 auto;
+	width:100%;
+	
+}
+
+.northIndia{
+	width:100%;
+	height:300px;
+	background-color:red;
+	position:relative;
+	float:left;
+	
+	
+}
+.northIndiaImage{
+	width:40%;
+	height:250px;
+	background-color:yellow;
+	margin:25px;
+	position:relative;
+	float:left;	
+}
+
+
+
+
+
+.westIndia{
+	width:100%;
+	height:300px;
+	background-color:#db15d9;
+	position:relative;
+	float:left;
+	
+}
+
+.centralIndia{
+	width:100%;
+	height:300px;
+	background-color:#8a15db;
+	position:relative;
+	float:left;
+	
+}
+
+.southIndia{
+	width:100%;
+	height:300px;
+	background-color:#15c1db;
+	position:relative;
+	float:left;
+	
+}
+
+.eastIndia{
+	width:100%;
+	height:300px;
+	background-color:#15db44;
+	position:relative;
+	float:left;
+	
+}
+
+.northEastIndia{
+	width:100%;
+	height:300px;
+	background-color:#d4db15;
+	position:relative;
+	float:left;
+	
+}
+
+
+

@@ -1,0 +1,62 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	width:1000px;
+	height:auto;
+	background-color:#c5bec0;
+	margin:0px auto;
+}
+
+.wrapper{
+	width:1000px;
+	height:auto;
+	margin:0px auto;
+}
+.tableHolder{
+	width:1000px;
+	height:auto;
+	margin-top:30px;
+}
+
+.tableStyle{
+	border:0px solid black;
+	margin:20px 0px 0px 0px;
+	padding:0px;
+	width:1000px;
+	height:300px;
+	
+}
+
+.tableRowColFirst{
+	border:0px solid black;
+	margin:0px;
+	font-size:20px;
+	padding:0px;
+	width:200px;
+	height:300px;
+}
+
+
+.tableRowColSecond{
+	border:0px solid black;
+	margin:0px;
+	font-size:20px;
+	padding:0px;
+	width:800px;
+	height:300px;
+}
+
+.colFirstTable{
+	height:250px;
+	width:150px;
+	border:0px solid black;
+	
+}
+.colFirstTablePlaceName{
+	height:50px;
+	width:140px;
+	border:0px solid red;
+}
