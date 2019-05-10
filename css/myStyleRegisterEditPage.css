@@ -1,0 +1,125 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width:1000px;
+	height:722px;
+	margin:0 auto;
+	background-color:#e7ef67;
+	
+}
+/*
+.header{
+	width:100%;
+	height:100px;
+	background-color:#ef67da;
+}*/
+
+.wrapper{
+	margin:0 auto;
+	width:1000px;
+	
+}
+.register{
+	width:500px;
+	height:730px;
+	
+	margin:10px;
+	background-color:#8fef67;
+	position:relative;
+	float:left;
+	
+	
+}
+.loginDiv{
+	width:460px;
+	height:400px;
+	margin:10px;
+	background-color:#8fef67;
+	position:relative;
+	float:left;
+	
+	
+}
+
+
+.confirmPagePackageForm{
+	width:300px;
+	height:auto;
+	font-size:15px;
+	color:black;
+	
+	border:0px solid black;
+	
+}
+.submittButton{
+	width:40px;
+	height:15px;
+	text-align:center;
+}
+textarea{
+	width:300px;
+	height:100px;
+	padding:12px 20px;
+	box-sizing:border-box;
+	border:2px solid red;
+	border-radius:4px;
+	background-color:white;
+	font-size:20px;
+	resize:none;
+	margin-left:50px;
+}
+input[type=text],input[type=email],input[type=date],input[type=password] {
+    width: 250px;
+    padding: 2px 2px;
+    margin: 2px 0 2px 20px;
+    box-sizing: border-box;
+	    border: 1px solid red;
+    border-radius: 2px;
+	font-size:20px;
+	height:30px;
+
+	  background-color: white;
+    color: black;
+}
+
+input[type=text]:focus {
+    background-color:lightblue;
+	   border: 3px solid #555;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #4b52b2;
+    border: none;
+    color: white;
+	width:25em;
+	height:3em;
+    padding: 16px 16px;
+    text-decoration: none;
+    margin: 4px 2px 4px 50px;
+    cursor: pointer;
+	font-size:15px;
+}
+input[type=button] {
+
+    background-color: #de1955;
+    border: none;
+	text-align:center;
+    color: white;
+    padding: 0px 0px;
+    text-decoration: none;
+    margin: 2px 4px;
+    cursor: pointer;
+	width:100px;
+	font-size:10px;
+}
+input[type=checkbox]{
+	height:20px;
+	width:20px;
+}
+.iAgree{
+	font-size:20px;
+	color:red;
+}
